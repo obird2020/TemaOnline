@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#main {
+	margin:0 auto;
+	margin-top:30px;
+	padding:0;
+	width:408px;
+}
+#cp {
+	float:left;
+	margin:0;
+	padding:0;
+}
+#top {
+	float:left;
+	margin:0;
+	padding:0;
+	width:408px;
+	height:14px;
+	background:url(../images/cp_top.png) no-repeat;
+}
+#bottom {
+	float:left;
+	margin:0;
+	padding:0;
+	width:408px;
+	height:21px;
+	background:url(../images/cp_bottom.png) no-repeat;
+}
+#middle {
+	float:left;
+	margin:0;
+	padding:0;
+	width:408px;
+	background:url(../images/cp_middle.png) repeat-y;
+	color:#FFF;
+}
+ul {
+	margin:0;
+	padding:5px 0 5px 70px;
+}
+ul li {
+    margin:0;
+	padding:5px 0 5px 25px;
+	list-style-image:url(../images/cp_bullet.png);
+}
+ul li a {
+    margin:0;
+	padding:0;
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+}
+ul li a:hover {
+    margin:0;
+	padding:0;
+	color:#FFF;
+	text-decoration:underline;
+}
+	
